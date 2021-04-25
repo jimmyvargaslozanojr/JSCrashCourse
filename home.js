@@ -56,3 +56,16 @@
 // for(let num = 0; num <= 100 ; num++){
 //     console.log(num);
 // }
+
+// Data Type
+
+let yourAge = 18; //number
+let yourName = 'Bob'; //string
+let name = {first: 'Jane',last: 'Doe'}; //Object
+let fruits = ['apple','banana','orange'] //Arrays
+let truth = false; //boolean
+let random; //undefined
+let nothing = null; //value null
+
+
+console.log(nothing);
