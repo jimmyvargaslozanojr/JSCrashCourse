@@ -59,24 +59,68 @@
 
 // Data Type
 
-let yourAge = 18; //number
-let yourName = 'Bob'; //string
-let name = {first: 'Jane',last: 'Doe'}; //Object
-let fruits = ['apple','banana','orange'] //Arrays
-let truth = false; //boolean
-let random; //undefined
-let nothing = null; //value null
-let fruit = 'banana';
-let moreFruits = 'banana\napple'; //new line
+// let yourAge = 18; //number
+// let yourName = 'Bob'; //string
+// let name = {first: 'Jane',last: 'Doe'}; //Object
+// let fruits = ['apple','banana','orange'] //Arrays
+// let truth = false; //boolean
+// let random; //undefined
+// let nothing = null; //value null
+// let fruit = 'banana';
+// let moreFruits = 'banana\napple'; //new line
 
 
-console.log(fruit.length);
-console.log(fruit.indexOf('n'));
-console.log(fruit.slice(2,6));
-console.log(fruit.replace('a','u'));
-console.log(fruit.toUpperCase());
-console.log(fruit.toLowerCase());
-console.log(fruit.charAt(2));
-console.log(fruit[2]);
-console.log(fruit.split(''));
-console.log(fruit.split(','));
+// console.log(fruit.length);
+// console.log(fruit.indexOf('n'));
+// console.log(fruit.slice(2,6));
+// console.log(fruit.replace('a','u'));
+// console.log(fruit.toUpperCase());
+// console.log(fruit.toLowerCase());
+// console.log(fruit.charAt(2));
+// console.log(fruit[2]);
+// console.log(fruit.split(''));
+// console.log(fruit.split(','));
+
+// Array
+
+let fruits = ['banana', 'apple', 'orange', 'pineapple'];
+fruits = new Array('banana', 'apple', 'orange', 'pineapple');
+
+// console.log(fruits[2]); //access value at index 2nd
+fruits[0] = 'pear';
+// console.log(fruits);
+
+// for (let i = 0; i < fruits.length; i++){
+//     console.log(fruits[i]);
+// }
+
+// array common methods
+
+// console.log('to string',fruits.toString());
+// console.log(fruits.join('-'));
+// console.log(fruits,fruits.pop(),fruits);
+// console.log(fruits.push('blackberries'),fruits);
+// fruits[fruits.length] = 'guava';
+// console.log(fruits);
+// fruits.shift();
+// console.log(fruits);
+// fruits.unshift('kiwi');
+// console.log(fruits);
+
+// let vegetables = ['asparagus','tomato','brocolli'];
+// let allGroceries = fruits.concat(vegetables);
+// console.log(allGroceries);
+// console.log(allGroceries.splice(1,4));
+// console.log(allGroceries.reverse());
+
+// let someNumber = [5,10,2,20,25,255,343,6545,43];
+// console.log(someNumber.sort(function(a,b){
+//     return a-b
+// }));
+
+let emptyArray = new Array();
+
+for (let num = 0; num <= 10; num++){
+    emptyArray.push(num);
+}
+console.log(emptyArray);
