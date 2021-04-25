@@ -66,6 +66,17 @@ let fruits = ['apple','banana','orange'] //Arrays
 let truth = false; //boolean
 let random; //undefined
 let nothing = null; //value null
+let fruit = 'banana';
+let moreFruits = 'banana\napple'; //new line
 
 
-console.log(nothing);
+console.log(fruit.length);
+console.log(fruit.indexOf('n'));
+console.log(fruit.slice(2,6));
+console.log(fruit.replace('a','u'));
+console.log(fruit.toUpperCase());
+console.log(fruit.toLowerCase());
+console.log(fruit.charAt(2));
+console.log(fruit[2]);
+console.log(fruit.split(''));
+console.log(fruit.split(','));
