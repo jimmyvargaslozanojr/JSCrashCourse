@@ -118,9 +118,23 @@ fruits[0] = 'pear';
 //     return a-b
 // }));
 
-let emptyArray = new Array();
+// let emptyArray = new Array();
 
-for (let num = 0; num <= 10; num++){
-    emptyArray.push(num);
-}
-console.log(emptyArray);
+// for (let num = 0; num <= 10; num++){
+//     emptyArray.push(num);
+// }
+// console.log(emptyArray);
+
+let student = {
+    first:'Rafeh',
+    last:'Qazi', 
+    age:25, 
+    height:170,
+    studentInfo: function(){
+        return this.first + '\n' + this.last;
+    }
+};
+console.log(student.first);
+student['first'] = 'Jimmy';
+console.log(student['age']);
+console.log(student.studentInfo());

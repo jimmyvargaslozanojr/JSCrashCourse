@@ -1,0 +1,14 @@
+git init
+git add .
+git reset .
+git commit -m "first"
+git branch
+git checkout -b 'feature'
+git stash pop
+git merge feature
+git merge feature --squash
+
+
+1. Fork
+2. Clone
+3. git push origin mysticker
