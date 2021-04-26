@@ -138,3 +138,4 @@ console.log(student.first);
 student['first'] = 'Jimmy';
 console.log(student['age']);
 console.log(student.studentInfo());
+
