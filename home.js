@@ -83,11 +83,11 @@
 
 // Array
 
-let fruits = ['banana', 'apple', 'orange', 'pineapple'];
-fruits = new Array('banana', 'apple', 'orange', 'pineapple');
+// let fruits = ['banana', 'apple', 'orange', 'pineapple'];
+// fruits = new Array('banana', 'apple', 'orange', 'pineapple');
 
 // console.log(fruits[2]); //access value at index 2nd
-fruits[0] = 'pear';
+// fruits[0] = 'pear';
 // console.log(fruits);
 
 // for (let i = 0; i < fruits.length; i++){
@@ -134,8 +134,28 @@ let student = {
         return this.first + '\n' + this.last;
     }
 };
-console.log(student.first);
-student['first'] = 'Jimmy';
-console.log(student['age']);
-console.log(student.studentInfo());
+// console.log(student.first);
+// student['first'] = 'Jimmy';
+// console.log(student['age']);
+// console.log(student.studentInfo());
+
+
+
+// FUNCTION
+
+const multiply = (a,b) => a+b ;
+
+function divide(a,b){
+    return a/b;
+}
+
+// console.log(multiply(3,4));
+// console.log(divide(multiply(3,3),5));
+
+// let a = prompt('Enter first number');
+// let b = prompt('Enter second number');
+
+// document.getElementById('sometext').innerHTML = a + b;
+
+
 
