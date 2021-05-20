@@ -155,7 +155,48 @@ function divide(a,b){
 // let a = prompt('Enter first number');
 // let b = prompt('Enter second number');
 
-// document.getElementById('sometext').innerHTML = a + b;
+// document.getElementById('result').innerHTML = divide(1,34);
+// console.log(divide(1,34));
 
+// Coditionals, Control flows (if else)
+// let status= '';
+// let age = prompt('what is your age?');
 
+// if( (age >= 18) && (age <= 35)){
+//     status = 'target demo';
+// } else {
+//     status = 'not my audience';
+// }
+// document.getElementById('main').innerHTML = status;
 
+let text;
+switch (6) {
+    case 0:
+        text = 'weekend';
+        break;
+    case 5:
+        text = 'weekend';
+        break; 
+    case 6:
+        text = 'weekend';
+        break;
+    default:
+        text = 'WEEKDAY';
+        break;
+}
+console.log(text);
+
+let students = `[
+    {
+        "name" : "Qazi",
+        "age"  : 25,
+        "height" : 170
+    },
+    {
+        "name" :"Rafeh",
+        "age" : 28,
+        "height" :180
+    }
+]`
+
+console.log(JSON.parse(students)[1].age);
